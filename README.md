@@ -1,12 +1,24 @@
-# React + Vite
+# Portal del Empleado/a — Dogfy Diet 🐶💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el portal interno del equipo de Dogfy Diet. Un espacio centralizado con acceso a recursos, herramientas, comunicaciones y gestiones útiles para el día a día.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Netlify](https://www.netlify.com/)
+- [Firebase (futuro login con Google)](https://firebase.google.com/)
 
-## Expanding the ESLint configuration
+## 📌 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 Login con cuenta corporativa (@dogfydiet.com)
+- 📰 Sección de Newsletter trimestral
+- 💬 Chat flotante con Dodi (asistente de RRHH)
+- 📚 Acceso a recursos: handbook, directorio, apps, sugerencias y más
+- 🎙️ Podcast y comunicaciones internas
+
+## 🌐 Demo
+
+---
