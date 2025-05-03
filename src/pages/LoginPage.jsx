@@ -28,7 +28,7 @@ export default function LoginPage() {
           Inicia sesión con tu cuenta de Dogfy Diet.
         </p>
         <Button
-          variant="google"
+          variant="neutral"
           icon={
             <img
               src="https://www.svgrepo.com/show/475656/google-color.svg"

@@ -55,10 +55,12 @@ export default function NewsletterPage() {
 
   return (
     <PageContainer>
-      <h1 className="text-3xl font-extrabold text-center mb-10">
-        📰 Newsletter — Julio 2025
+      <h1 className="text-3xl font-extrabold text-center mb-2">
+        📰 Newsletter
       </h1>
-
+      <p className="text-sm text-neutral-semidark mb-6 text-center">
+        Julio 2025
+      </p>
       <div className="space-y-6 max-w-3xl mx-auto">
         {mockNews.map((news) => (
           <div

@@ -4,16 +4,12 @@ export default {
   theme: {
     extend: {
       animation: {
-        wiggle: "wiggle 0.7s ease-in-out infinite",
         "fade-in": "fadeIn 0.3s ease-out",
         "fade-out": "fadeOut 0.3s ease-in forwards",
+        "fade-in-opacity": "fadeInOpacity 0.5s ease-out forwards",
+        "fade-out-opacity": "fadeOutOpacity 0.5s ease-in forwards",
       },
       keyframes: {
-        wiggle: {
-          "0%, 100%": { transform: "translateX(0)" },
-          "25%": { transform: "translateX(-1px)" },
-          "75%": { transform: "translateX(1px)" },
-        },
         fadeIn: {
           "0%": { opacity: 0, transform: "translateY(10px)" },
           "100%": { opacity: 1, transform: "translateY(0)" },
@@ -21,6 +17,14 @@ export default {
         fadeOut: {
           "0%": { opacity: 1, transform: "translateY(0)" },
           "100%": { opacity: 0, transform: "translateY(10px)" },
+        },
+        fadeInOpacity: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        fadeOutOpacity: {
+          "0%": { opacity: 1 },
+          "100%": { opacity: 0 },
         },
       },
       fontFamily: {

@@ -6,6 +6,19 @@ import PageContainer from "../components/PageContainer";
 
 export default function Home() {
   const [showChat, setShowChat] = useState(false);
+  const [fadeOut, setFadeOut] = useState(false);
+
+  const handleToggleChat = () => {
+    if (showChat) {
+      setFadeOut(true);
+      setTimeout(() => {
+        setShowChat(false);
+        setFadeOut(false);
+      }, 300); // mismo tiempo que la animación fade-out
+    } else {
+      setShowChat(true);
+    }
+  };
 
   return (
     <>
@@ -15,11 +28,8 @@ export default function Home() {
         </PageContainer>
       </main>
 
-      {/* Chat flotante */}
-      <ChatLauncher onClick={() => setShowChat(!showChat)} />
-
-      {/* Modal del chat como componente separado */}
-      {showChat && <ChatModal />}
+      <ChatLauncher onClick={handleToggleChat} />
+      {showChat && <ChatModal fadeOut={fadeOut} />}
     </>
   );
 }

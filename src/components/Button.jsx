@@ -15,13 +15,13 @@ export default function Button({
 
   const variants = {
     primary: "bg-brand-primary-dark text-white hover:bg-brand-primary-darkest",
+    neutral:
+      "bg-white border border-neutral-light text-neutral-dark hover:border-brand-primary-dark hover:bg-neutral-ultralight hover:text-brand-primary-dark",
     disabled: "bg-neutral-semilight text-white cursor-not-allowed",
-    google:
-      "bg-white border border-neutral-light hover:border-brand-primary-dark hover:bg-neutral-ultralight text-neutral-dark",
   };
 
   const iconClasses =
-    "transition-transform duration-300 ease-in-out group-hover:animate-wiggle";
+    "transition-all duration-300 ease-in-out group-hover:scale-110 text-inherit";
 
   return (
     <button
