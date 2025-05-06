@@ -3,7 +3,12 @@ import Button from "./Button";
 
 export default function WelcomeSection() {
   return (
-    <section className="w-full text-center bg-brand-primary-light">
+    <section
+      className="
+    w-full text-center
+    bg-brand-secondary-medium
+  "
+    >
       <h1 className="text-3xl md:text-4xl font-extrabold text-gray-800 mb-4">
         ¡Te damos la bienvenida al Portal del Empleado/a!
       </h1>

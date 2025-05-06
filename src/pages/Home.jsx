@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ChatLauncher from "../components/ChatLauncher";
 import ChatModal from "../components/ChatModal";
 import WelcomeSection from "../components/WelcomeSection";
+import HistorySection from "../components/HistorySection";
 import PageContainer from "../components/PageContainer";
 
 export default function Home() {
@@ -23,8 +24,11 @@ export default function Home() {
   return (
     <>
       <main>
-        <PageContainer full className="bg-brand-primary-light">
+        <PageContainer full className="bg-brand-secondary-medium">
           <WelcomeSection />
+        </PageContainer>
+        <PageContainer full>
+          <HistorySection />
         </PageContainer>
       </main>
 

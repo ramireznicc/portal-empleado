@@ -45,7 +45,7 @@ export default {
           secondary: {
             darkest: "#353D29",
             dark: "#374C52",
-            medium: "#CEC3B5",
+            medium: "#CCE3B5",
             light: "#C8EAEA",
             lightest: "#FFF699",
           },
