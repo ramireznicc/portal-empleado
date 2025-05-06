@@ -1,42 +1,42 @@
 import React from "react";
 import {
-  Facebook,
-  Instagram,
-  Youtube,
-  Linkedin,
-  Twitter,
-  Music2,
-} from "lucide-react";
+  SiFacebook,
+  SiInstagram,
+  SiYoutube,
+  SiTiktok,
+  SiX,
+  SiLinkedin,
+} from "react-icons/si";
 
 const redes = [
   {
     nombre: "Facebook",
-    icono: <Facebook size={18} />,
+    icono: <SiFacebook size={18} />,
     link: "https://www.facebook.com/dogfydiet/",
   },
   {
     nombre: "Instagram",
-    icono: <Instagram size={18} />,
+    icono: <SiInstagram size={18} />,
     link: "https://www.instagram.com/dogfydiet/",
   },
   {
     nombre: "YouTube",
-    icono: <Youtube size={18} />,
+    icono: <SiYoutube size={18} />,
     link: "https://www.youtube.com/@dogfydiet",
   },
   {
     nombre: "TikTok",
-    icono: <Music2 size={18} />,
+    icono: <SiTiktok size={18} />,
     link: "http://tiktok.com/@dogfy.diet",
   },
   {
     nombre: "X",
-    icono: <Twitter size={18} />,
+    icono: <SiX size={18} />,
     link: "https://x.com/dogfy_diet",
   },
   {
     nombre: "LinkedIn",
-    icono: <Linkedin size={18} />,
+    icono: <SiLinkedin size={18} />,
     link: "https://es.linkedin.com/company/dogfydiet",
   },
 ];

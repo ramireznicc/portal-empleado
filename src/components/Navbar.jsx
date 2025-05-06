@@ -45,7 +45,7 @@ export default function Navbar({ userName }) {
 
         <div className="relative group">
           <button className="hover:text-brand-primary-dark transition flex items-center gap-1">
-            📑 Información{" "}
+            🟠 Información
             <span className="transition-transform duration-200 group-hover:rotate-180">
               <ChevronDown className="w-4 h-4" />
             </span>
@@ -55,7 +55,7 @@ export default function Navbar({ userName }) {
               to="/handbook"
               className="block px-4 py-2 hover:bg-brand-primary-medium text-gray-800 rounded"
             >
-              📘 Handbook
+              📙 Handbook
             </Link>
             <Link
               to="/organigrama"
@@ -67,13 +67,13 @@ export default function Navbar({ userName }) {
               to="/directorio"
               className="block px-4 py-2 hover:bg-brand-primary-medium text-gray-800 rounded"
             >
-              📒 Directorio
+              📑 Directorio
             </Link>
           </div>
         </div>
         <div className="relative group">
           <button className="hover:text-brand-primary-dark transition flex items-center gap-1">
-            🧰 Recursos{" "}
+            🧰 Recursos
             <span className="transition-transform duration-200 group-hover:rotate-180">
               <ChevronDown className="w-4 h-4" />
             </span>
