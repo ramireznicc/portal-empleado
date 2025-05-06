@@ -6,6 +6,7 @@ import App from "./App.jsx";
 import Home from "./pages/Home.jsx";
 import NewsletterPage from "./pages/NewsletterPage.jsx";
 import Organigrama from "./pages/Organigrama.jsx";
+import Podcast from "./pages/Podcast.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -26,6 +27,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           element={
             <PrivateLayout>
               <NewsletterPage />
+            </PrivateLayout>
+          }
+        />
+        <Route
+          path="/podcast"
+          element={
+            <PrivateLayout>
+              <Podcast />
             </PrivateLayout>
           }
         />
